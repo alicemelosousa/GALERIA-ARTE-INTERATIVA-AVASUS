@@ -7,11 +7,10 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>GALERIA DE ARTE INTERATIVA</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet"
-                id="bootstrap-css">
+        <link href="styles/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <link rel="stylesheet" href="styles/main.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
-        <script src="scripts/vendor/modernizr.js"></script>
+        <!-- <script src="scripts/vendor/modernizr.js"></script> -->
 </head>
 
 <body>
@@ -28,7 +27,7 @@
                         <div id="navbar" class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav navbar-right">
                                         <li><a href="sobre.html">Sobre</a>
-                                    
+
                                         <li><a data-scroll href="#acervo">Acervo</a></li>
 
                                 </ul>
@@ -58,32 +57,55 @@
                                 <button class="btn btn-default filter-button" data-filter="quartaobra">A sífilis, Edvard Munch e a “Herança”</button> 
                                 <button class="btn btn-default filter-button" data-filter="quintaobra">A sífilis, Joseph Sargent e Miss Evers’ Boys</button>
                 </div-->
-                        <br><br><br><br>
 
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter primeiraobra">
-                                <a href="pagina1.html">
-                                        <img src="images/obra1.jpeg" class="img-responsive"></a>
+
+                        <div class="container">
+                                <div class="row">
+                                        <div class="text-justify"><br>
+                                                <h1 class="text-center">Seja bem-vindo!</h1><br>
+                                                Para navegar na galeria de arte virtual da sífilis você
+                                                deverá acessar a aba “Sobre” que está localizado na área superior
+                                                direita da tela. Nessa aba você vai receber informações sobre como a
+                                                sífilis influenciou as artes através dos séculos. Em seguida, ao lado da
+                                                aba “Sobre”, você pode acessar a aba “Acervo” onde estão expostas
+                                                diversas obras que têm relação com a sífilis. Para conhecer cada obra
+                                                você deve clicar na mesma, e para explorá-la você deve clicar no símbolo
+                                                “+” para abrir uma caixa de texto com as
+                                                informações relativas à obra. Após ler, basta clicar novamente no
+                                                símbolo e a caixa de texto se fechará.
+
+
+                                        </div>
+                                </div>
                         </div>
+                        <br>
 
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter segundaobra">
-                                <a href="pagina2.html">
-                                        <img src="images/obra2.png" class="img-responsive"></a>
-                        </div>
+                        <div id="acervo">
+                                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter primeiraobra">
+                                        <a href="pagina1.html">
+                                                <img src="images/obra1.jpeg" class="img-responsive"></a>
+                                </div>
+
+                                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter segundaobra">
+                                        <a href="pagina2.html">
+                                                <img src="images/obra2.png" class="img-responsive"></a>
+                                </div>
 
 
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter terceiraobra">
-                                <a href="pagina3.html">
-                                        <img src="images/obra3.png" class="img-responsive"> </a>
-                        </div>
+                                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter terceiraobra">
+                                        <a href="pagina3.html">
+                                                <img src="images/obra3.png" class="img-responsive"> </a>
+                                </div>
 
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter quartaobra">
-                                <a href="pagina4.html">
-                                        <img src="images/obra4.jpg" class="img-responsive"></a>
-                        </div>
+                                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter quartaobra">
+                                        <a href="pagina4.html">
+                                                <img src="images/obra4.jpg" class="img-responsive"></a>
+                                </div>
 
-                        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter quintaobra">
-                                <a href="pagina5.html">
-                                        <img src="images/obra5.png" class="img-responsive"></a>
+                                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter quintaobra">
+                                        <a href="pagina5.html">
+                                                <img src="images/obra5.png" class="img-responsive"></a>
+                                </div>
                         </div>
 
                 </div>
@@ -104,13 +126,12 @@
         <script>
                 ! function (e, a, t, n, g, c) {
                         e.GoogleAnalyticsObject = n, e.ga || (e.ga = function () {
-                                        (e.ga.q = e.ga.q || []).push(arguments)
-                                }), e.ga.l = +new Date, g = a.createElement(t), c = a.getElementsByTagName(t)[0], g
+                                (e.ga.q = e.ga.q || []).push(arguments)
+                        }), e.ga.l = +new Date, g = a.createElement(t), c = a.getElementsByTagName(t)[0], g
                                 .src = "https://www.google-analytics.com/analytics.js", c.parentNode.insertBefore(g, c)
                 }(window, document, "script", "ga"), ga("create", "UA-XXXXX-X"), ga("send", "pageview")
         </script>
         <script src="scripts/vendor.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js">
         </script>
         <script src="scripts/main.js"></script>

@@ -16,7 +16,9 @@ header.masthead {
     background: url(../images/destaque.jpg) no-repeat;
     background-size: cover;
     padding-top: 16rem;
-    padding-bottom: 10rem
+    padding-bottom: 10rem;
+    opacity: 0.5;
+
 }
 
 header.masthead h1 {
